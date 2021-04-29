@@ -1,17 +1,17 @@
 body {
-    background-color: black;
+    background: url(/cliente/cliente-SOAP/img/venta.png);
 }
 
 .for {
     position: static;
-    width: 400px;
+    width: 380px;
     height: 550px;
     padding-left: 35px;
     padding-top: 20px;
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 20px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -61,7 +61,7 @@ button {
     height: 40px;
     border-radius: 20px;
     border: 4px;
-    background-color: rgb(245, 230, 30);
+    background-color: rgb(24, 90, 233);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
@@ -75,22 +75,6 @@ button {
 }
 
 .conte {
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.conte a {
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
-    background: rgb(50, 59, 141);
-    padding: 8px 20px;
-    border-radius: 30px;
-    margin: 20px;
-    transition: background-color 1s;
-}
-
-.conte {
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -99,7 +83,7 @@ button {
     font-size: 16px;
     color: white;
     text-decoration: none;
-    background: rgb(50, 59, 141);
+    background:rgb(24, 90, 233);
     padding: 8px 20px;
     border-radius: 30px;
     margin: 20px;
