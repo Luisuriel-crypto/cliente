@@ -6,7 +6,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Datos de la Venta</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="/cliente/cliente-SOAP/style.css">
     <script src='main.js'></script>
 </head>
@@ -29,16 +28,16 @@
 
         <p class="tit">Precio</p>
 
-        <input id="precio" type="number" placeholder="Precio" min="1" max="5000" required="" tabindex="3">
+        <input id="precioU" type="number" placeholder="Precio" min="1" max="5000" required="" tabindex="3">
 
         <p class="tit">Producto Disponible</p>
 
-        <input id="producD" type="number" placeholder="Productos en stock" required>
+        <input id="enStock" type="number" placeholder="Productos en stock" required>
 
         <!--Boton de inicio de sesión-->
         <div class="boton">
 
-            <button type="button" value="Acceder" onclick="venta()">Realizar Venta</button>
+            <input type="Button" value="enviar" onclick="venta()">
 
         </div>
 
