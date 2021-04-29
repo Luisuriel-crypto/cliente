@@ -10,13 +10,20 @@
 </head>
 
 <body>
-    <form name="form1" action="/me/tell/RealizarVentasRequest" method="post" onsubmit="return validarForma(this)">
+    <form name="form1" action="/me/tell/ModificarVentaRequest" method="post" onsubmit="return validarForma(this)">
         <input type="hidden" name="oculto" value="valueOculto" />
         <table width="200" id="enfasis-columna">
 
             <caption>
-                Formulario Registro de Ventas
+                Modificacion de Ventas
             </caption>
+            <tr>
+                <td class="columna">Id Producto</td>
+                <td>
+                    <input class="default" type="text" name="idProducto" value="idProducto" onfocus="this.select()" />
+                </td>
+            </tr>
+
             <tr>
                 <td class="columna">Nombre</td>
                 <td>
@@ -25,29 +32,12 @@
             </tr>
 
             <tr>
-                <td class="columna">Descripcion</td>
-                <td>
-                    <input class="default" type="text" name="Descripcion" value="Descripcion" onfocus="this.select()" />
-                </td>
-            </tr>
-            <tr>
-                <td class="columna">Precio</td>
-                <td>
-                    <input class="default" type="text" name="PrecioU" value="Precio" onfocus="this.select()" />
-                </td>
-            </tr>
-            <tr>
                 <td class="columna">Precio Unitario</td>
                 <td>
-                    <input class="default" type="text" name="PrecioU" value="Precio Unitario" onfocus="this.select()" />
+                    <input class="default" type="text" name="Precio Unitario" value="Precio Unitario" onfocus="this.select()" />
                 </td>
             </tr>
-            <tr>
-                <td class="columna">Stock</td>
-                <td>
-                    <input class="default" type="text" name="Stock" value="Stock" onfocus="this.select()" />
-                </td>
-            </tr>
+
             <tr style="text-align: center">
                 <td>
                     <input type="reset" value="Limpiar" class="default">
