@@ -1,1 +1,16 @@
+com\example\cliente\ClienteEndPoint.class
+com\example\cliente\ClienteConfig.class
+com\example\cliente\Icliente.class
+me\tell\ventas\EliminarVentaResponse.class
+me\tell\ventas\MostrarVentaRequest.class
+me\tell\ventas\package-info.class
+me\tell\ventas\ModificarVentaResponse.class
+me\tell\ventas\ModificarVentaRequest.class
+me\tell\ventas\MostrarVentaResponse$EmpleadoV.class
+me\tell\ventas\RealizarVentaResponse.class
+com\example\cliente\ClientesV.class
+me\tell\ventas\ObjectFactory.class
 com\example\cliente\ClienteApplication.class
+me\tell\ventas\RealizarVentaRequest.class
+me\tell\ventas\MostrarVentaResponse.class
+me\tell\ventas\EliminarVentaRequest.class
