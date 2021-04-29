@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Datos de la Venta</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="/cliente/cliente-SOAP/style.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="conte">
+        <a href="/cliente/cliente-SOAP/Principal.html">Volver</a>
+    </div>
+  
+
+    <div class="for">
+        <h1 id="titulo">Sistema de venta</h1>
+        <p class="titulos">Nombre</p>
+
+        <input id="nombre" type="email" placeholder="Nombre del producto" required>
+
+        <p class="tit">Descripción</p>
+
+        <input id="descripcion" type="text" placeholder="Descripción del  producto" required>
+
+        <p class="tit">Precio</p>
+
+        <input id="precio" type="number" placeholder="Precio" min="1" max="5000" required="" tabindex="3">
+
+        <p class="tit">Producto Disponible</p>
+
+        <input id="producD" type="number" placeholder="Productos en stock" required>
+
+        <!--Boton de inicio de sesión-->
+        <div class="boton">
+
+            <button type="button" value="Acceder" onclick="venta()">Realizar Venta</button>
+
+        </div>
+
+        <div id="contenido"></div>
+
+    </div>
+</body>
+
+</html>
