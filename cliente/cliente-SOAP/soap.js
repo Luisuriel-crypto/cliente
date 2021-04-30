@@ -19,8 +19,10 @@ function venta() {
         headers: {
             'Content-Type': 'text/xml',
             'SOAPAction': ''
-        },
+        },   
     })
+    alert("Registrado correctamente");
+    location.href= "/cliente/cliente-SOAP/html/RealizarVenta.html"
 }
 
 function eliminar() {
@@ -41,24 +43,8 @@ function idElim() {
             'SOAPAction': ''
         },
     })
+    alert("Eliminado correctamente");
+    location.href= "/cliente/cliente-SOAP/html/Eliminar.html"
 }
 
 
-/*function visualizar() {
-    verVentas = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' +
-        '<Body>' +
-        '<MostrarVentaRequest xmlns="http://tell.me/ventas">' +
-
-        '</MostrarVentaRequest>'
-        '</Envelope>'
-}
-function visualizarV(){
-    visualizar()
-    axios.post('http://localhost:8080/ws/venta', ventas, {
-        headers: {
-            'Content-Type': 'text/xml',
-            'SOAPAction': ''
-        },
-    })
-
-}*/
