@@ -1,5 +1,6 @@
 var ventas;
 var elimp;
+var mod;
 
 function agregar() {
     ventas = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' +
@@ -19,12 +20,12 @@ function venta() {
         headers: {
             'Content-Type': 'text/xml',
             'SOAPAction': ''
-        },   
+        },
     })
     alert("Registrado correctamente");
-    location.href= "/cliente/cliente-SOAP/html/RealizarVenta.html"
+    location.href = "/cliente/cliente-SOAP/html/RealizarVenta.html"
 }
-
+/**ELIMINAR */
 function eliminar() {
     elimp = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' +
         '<Body>' +
@@ -44,7 +45,7 @@ function idElim() {
         },
     })
     alert("Eliminado correctamente");
-    location.href= "/cliente/cliente-SOAP/html/Eliminar.html"
+    location.href = "/cliente/cliente-SOAP/html/Eliminar.html"
 }
 
 
