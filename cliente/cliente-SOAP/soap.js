@@ -6,8 +6,8 @@ function agregar() {
         '<RealizarVentaRequest xmlns="http://tell.me/ventas">' +
         '<nombre>' + document.getElementById('nombre').value + '</nombre>' +
         '<descripcion>' + document.getElementById('descripcion').value + '</descripcion>' +
-        '<precio>' + document.getElementById('precioU').value + '</precio>' +
-        '<producDis>' + document.getElementById('enStock').value + '</producDis>' +
+        '<precioU>' + document.getElementById('precioU').value + '</precioU>' +
+        '<enStock>' + document.getElementById('enStock').value + '</enStock>' +
         '</RealizarVentaRequest>' +
         '</Body>' +
         '</Envelope>'

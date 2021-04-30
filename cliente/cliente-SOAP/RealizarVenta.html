@@ -7,14 +7,14 @@
     <title>Datos de la Venta</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="/cliente/cliente-SOAP/style.css">
-    <script src='main.js'></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
     <div class="conte">
         <a href="/cliente/cliente-SOAP/Principal.html">Volver</a>
     </div>
-  
+
 
     <div class="for">
         <h1 id="titulo">Sistema de venta</h1>
@@ -32,7 +32,7 @@
 
         <p class="tit">Producto Disponible</p>
 
-        <input id="enStock" type="number" placeholder="Productos en stock" required>
+        <input id="enStock" type="text" placeholder="Productos en stock" required>
 
         <!--Boton de inicio de sesión-->
         <div class="boton">
@@ -40,10 +40,7 @@
             <input type="Button" value="enviar" onclick="venta()">
 
         </div>
-
-        <div id="contenido"></div>
-
-    </div>
+        <script src="soap.js"></script>
 </body>
 
 </html>
