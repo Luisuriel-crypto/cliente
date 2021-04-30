@@ -21,3 +21,20 @@ function venta() {
         },
     })
 }
+
+function visualizar() {
+    verVentas = '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' +
+        '<Body>' +
+        '<MostrarVentaResponse xmlns="http://tell.me/ventas">' +
+        '</MostrarVentaRequest>' 
+        '</Envelope>'
+        console.log(verVentas);
+}
+
+function visualizarV(){
+    visualizar()
+    axios.get('http://localhost:8080/ws/venta', ventas, {
+        
+    })
+}
+  
